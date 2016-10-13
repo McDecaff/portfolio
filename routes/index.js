@@ -6,4 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Nick Metcalf' });
 });
 
+/* GET Skils page. */
+router.get('/skills', function(req, res, next) {
+  res.render('skills', { title: 'Skill Set' });
+});
+
 module.exports = router;

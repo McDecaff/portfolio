@@ -16,6 +16,7 @@ body {
   margin: 0;
     background: url('../images/guitarsblur.png');
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 article,
 aside,
@@ -6909,10 +6910,17 @@ nav ul li {
   font-size:150%;
   min-width:200px;
 }
-nav ul li:hover{
+
+ul li{
+  background-color: #b77fb7;
+  display: inline-block !important;
+}
+ ul li:hover{
   background-color: #6a006a;
 }
+
 nav ul li a, a:hover {
   color:white;
+  display:block;
   text-decoration: none;
 }

@@ -1,0 +1,28 @@
+<%include partials/header.ejs%>
+
+<div class="container" xmlns="http://www.w3.org/1999/html">
+    <div class="jumbotron">
+        <form class="form-group" action='/sendEmail' method='post'>
+            <div><%= msg %></div>
+            <legend><%= title %></legend>
+            <fieldset>
+                <label for="name" class="form-control">Name:</label>
+                <input type="name" name="name" id="name" placeholder="Name" required/>
+            </fieldset>
+            <fieldset>
+                <label for="email" class="form-control">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email Address" required/>
+            </fieldset>
+            <fieldset>
+                <label for="message" class="form-control">Message:</label>
+                <textarea name="message" cols="40" rows="10" id="message" ></textarea>
+            </fieldset>
+            <button class="btn btn-primary">Send</button>
+        </form>
+    </div>
+</div>
+
+
+
+
+<%include partials/footer.ejs %>

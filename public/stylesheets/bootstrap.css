@@ -3969,6 +3969,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
   padding: 10px 15px;
+    background-color: #b77fb7;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -6866,19 +6867,9 @@ label {
   border-color: #dddddd;
 }
 
-  nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  top: 0;
-  left: 0;
-  width: 100%;
-  position: fixed;
-  z-index: 999999;
-
+ul > li{
+   background-color: #b77fb7 !important;
 }
-nav ul li {
-  display: inline-block;
-  padding: 2%;
+ul > li:hover{
+    background-color: #6a006a !important;
 }
