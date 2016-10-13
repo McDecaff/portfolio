@@ -3,8 +3,9 @@
 <div class="container" xmlns="http://www.w3.org/1999/html">
     <div class="jumbotron">
         <form class="form-group" action='/sendEmail' method='post'>
+            <h1><%=title%></h1>
+            <br/>
             <div><%= msg %></div>
-            <legend><%= title %></legend>
             <fieldset>
                 <label for="name" class="form-control">Name:</label>
                 <input type="name" name="name" id="name" placeholder="Name" required/>
