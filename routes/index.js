@@ -1,3 +1,7 @@
+/*   Assignment #1 Express Portfolio
+     Nicholas Metcalf (200321780
+     Main routes, pointing to the index and skills pages*/
+
 var express = require('express');
 var router = express.Router();
 

@@ -1,3 +1,7 @@
+/*   Assignment #1 Express Portfolio
+     Nicholas Metcalf (200321780
+     Main app code*/
+
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -7,6 +11,8 @@ var bodyParser = require('body-parser');
 var nodemailer = require('nodemailer');
 
 var routes = require('./routes/index');
+
+//Reference the contact route (also handles e-mail functionality)
 var contact = require('./routes/contact');
 
 var app = express();

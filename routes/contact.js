@@ -1,3 +1,7 @@
+/*   Assignment #1 Express Portfolio
+     Nicholas Metcalf (200321780
+     Contact page route, as well as the code for handling emails */
+
 var express = require('express');
 var router = express.Router();
 var nodemailer = require('nodemailer');
